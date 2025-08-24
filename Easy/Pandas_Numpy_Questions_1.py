@@ -196,10 +196,3 @@ print(pd.merge(df,df_2,on="isim",how="inner"))
 
 """-----------------------------Apply , Map, Lambda Soruları---------------------------"""
 
-data_1 = {
-    "isim": ["Ali", "Ayşe", "Mehmet", "Fatma"],
-    "yas": [25, 30, 22, 28],
-    "maas": [5000, 6000, 4500, 7000]
-}
-df_4 = pd.DataFrame(data)
-
